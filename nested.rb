@@ -1,16 +1,25 @@
 
 def hopper
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          
-        }
-       
-     }
+def hopper	  programmer_hash = 
+	programmer_hash = 	    {
+ 			  :grace_hopper => {
+        :known_for => "COBOL",
+        :languages => ["COBOL", "FORTRAN"]
+          :languages => ["COBOL", "FORTRAN"]	        },
+        },	        :alan_kay => {
+        :alan_kay => {	          :known_for => "Object Orientation",
+          :known_for => "Object Orientation",	          :languages => ["Smalltalk", "LISP"]
+          :languages => ["Smalltalk", "LISP"]	        },
+        },	        :dennis_ritchie => {
+        :dennis_ritchie => {	          :known_for => "Unix",
+          :known_for => "Unix",	          :languages => ["C"]
+          :languages => ["C"]	        }
+        }	     }
+     }	
 
+ 	programmer_hash[:grace_hopper]
 
-end
+ end
 
 
 def alan_kay_is_known_for
